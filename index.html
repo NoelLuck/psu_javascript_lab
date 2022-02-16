@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>psu javascript lab</title>
+</head>
+<body>
+
+
+
+
+    <script type="text/javascript">
+        // for const use all caps with underscore
+        // for lets use camel case
+        const EVENT_NAME = "Olympics 2022"
+
+        // browser log
+        console.log("Browser is " + navigator.vendor)
+        // don't ever use document.write. it looks like below. use console.log
+        // document.write("String from javascript - do not use")
+
+        console.log("Event: " + EVENT_NAME)
+
+        let athleteName = "Shawn White"
+        let athleteHeight = "5'9\""
+        console.log(athleteName + "is " + athleteHeight + ".")
+
+        athleteName = "Mikeala Shiffrin"
+        athleteHeight = "5'7\""
+        console.log(athleteName + "is " + athleteHeight + ".")
+
+        let olympicEvents = ["Curling", "Figure Skating", "Snowboarding"]
+        console.log(olympicEvents)
+        console.log("The first event is: " + olympicEvents[0])
+
+        let competingAthlete1 = {
+            "name": "Shawn White",
+            "birthYear": 1986,
+            "event": "Halfpipe"
+        }
+
+        let competingAthlete2 = {
+            "name": "Mikeala Shiffrin",
+            "birthYear": 1995,
+            "event": ["Super-G", "Giant Slalom", "Downhill"]
+        }
+
+        let competingAthletes = [competingAthlete1, competingAthlete2]
+        console.log(competingAthletes)
+
+    </script>
+</body>
+</html>
